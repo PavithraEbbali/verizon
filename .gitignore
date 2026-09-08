@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+build/
+
+# generation source art — 87 MB of PNGs kept locally only.
+# The optimised WebP files that the site actually serves live in
+# nextjs/public/img/ and ARE committed.
+nextjs/image-originals/
+
+# env
+.env
+.env*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+
+# editor / OS
+.DS_Store
+Thumbs.db
+*.pem
+
+# vercel
+.vercel

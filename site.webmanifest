@@ -1,0 +1,12 @@
+{
+  "name": "Signal Wireless — Authorized Verizon Retailer",
+  "short_name": "Signal Wireless",
+  "description": "Independent authorized Verizon retailer: mobile plans, 5G phones, and Home Internet with local support.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0b0d",
+  "theme_color": "#ee0000",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

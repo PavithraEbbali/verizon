@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "nextjs",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "nextjs", "run", "dev", "--", "-p", "4323"],
+      "port": 4323
+    },
+    {
+      "name": "preview",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [".claude/preview-server.js"],
+      "port": 4322
+    }
+  ]
+}
