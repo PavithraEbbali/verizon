@@ -107,8 +107,14 @@ export const NAV_LINKS = [
 
 export const HERO = {
   eyebrow: "Independent Authorized Retailer",
-  /** Split into words so JSX can guarantee whitespace between them. */
-  headline: ["Verizon", "Fios", "fiber,", "ordered", "in", "one", "call."],
+  /**
+   * Split into words so JSX can guarantee whitespace between them.
+   *
+   * Leads with the product rather than the sales mechanic, and deliberately
+   * makes no availability claim — the hero's only action is the ZIP check, and
+   * Fios eligibility is confirmed by address on the call.
+   */
+  headline: ["Verizon", "Fios", "fiber", "internet", "for", "your", "home."],
   headlineAccent: "Fios",
   subline:
     "Verizon Fios runs on a 100% fiber-optic network with symmetrical upload and download speeds. Where Fios has not been built out, Verizon 5G Home Internet delivers fixed wireless service over 5G Ultra Wideband.",
