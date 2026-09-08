@@ -41,7 +41,6 @@ const businessLd = {
       contactType: "sales",
       areaServed: "US",
       availableLanguage: "English",
-      description: DISCLOSURE.newOrdersOnly,
     },
   ],
   disambiguatingDescription: `${OPERATOR.legalName} is an independent authorized retailer of Verizon services and is not Verizon Communications Inc.`,

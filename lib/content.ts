@@ -131,7 +131,6 @@ export const HERO = {
   },
   microcopy: {
     hours: PHONE.hours,
-    newOrders: DISCLOSURE.newOrdersOnly,
   },
   /** Up to four verifiable trust chips. Each asterisk resolves in the fine print. */
   trustChips: [
@@ -787,11 +786,6 @@ export const FAQ: { id: string; eyebrow: string; title: string; items: FaqItem[]
       id: "contracts",
       q: "Is there an annual contract or an early termination fee?",
       a: "No — the internet tiers listed on this page are month-to-month with no annual contract and no early termination fee. Some plans carry a Verizon price guarantee that holds your rate for a published term; that is a guarantee in your favor, not a commitment that locks you in. Device payment agreements on mobile lines are separate and do carry their own terms, which the agent will explain before you order.",
-    },
-    {
-      id: "support",
-      q: "I am already a Verizon customer — can you help with my bill or an outage?",
-      a: `No — contact Verizon customer support directly for billing questions, outages, and existing-account changes. ${DISCLOSURE.newOrdersOnly} Our order line cannot access your existing Verizon account, and calling us for a billing issue will only cost you time.`,
     },
   ],
 };

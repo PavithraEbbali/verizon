@@ -268,22 +268,19 @@ export const legal: Record<string, LegalDoc> = {
       <h2>1. Independent retailer</h2>
       <p>{{entity}} is an <strong>independent authorized retailer</strong> of Verizon® services. We are a separate business and are <strong>not</strong> Verizon Communications Inc., nor are we owned or operated by Verizon. References to Verizon products describe services Verizon offers and that we are authorized to sell. Verizon is not responsible for the content of this website.</p>
 
-      <h2>2. This line is for new orders</h2>
-      <p>Our order line places new Verizon orders. If you are already a Verizon customer with a billing question, a service outage, or an account change, contact Verizon customer support directly. We cannot access your existing Verizon account.</p>
-
-      <h2>3. Accuracy of information</h2>
+      <h2>2. Accuracy of information</h2>
       <p>Plans, pricing, promotions, speed tiers, channel counts, and equipment terms are set by Verizon and can change at any time without notice. Figures on this site are presented for general information and were accurate to the best of our knowledge on the date shown above. The controlling terms are those Verizon provides at the point of order.</p>
 
-      <h2>4. Pricing</h2>
+      <h2>3. Pricing</h2>
       <p>Prices exclude taxes, government fees, and surcharges unless expressly stated. Advertised rates generally require Auto Pay with paperless billing and may require an eligible Verizon mobile plan on the same account. Post-promotional rates are disclosed in the fine-print table on our home page. Final pricing is confirmed by Verizon when your order is placed.</p>
 
-      <h2>5. Speed and coverage claims</h2>
+      <h2>4. Speed and coverage claims</h2>
       <p>Statements about fiber, 5G Ultra Wideband, speeds, and coverage describe Verizon's network as published by Verizon. Actual performance varies by address, equipment, in-home wiring, and network conditions. Fios speeds are tier maximums; 5G Home speeds are typical ranges.</p>
 
-      <h2>6. Limitation of liability</h2>
+      <h2>5. Limitation of liability</h2>
       <p>To the fullest extent permitted by law, {{entity}} is not liable for loss arising from reliance on information on this site, which is provided "as is" without warranties of any kind.</p>
 
-      <h2>7. Contact</h2>
+      <h2>6. Contact</h2>
       <p><a href="mailto:{{email}}">{{email}}</a> · {{phone}}</p>
     `,
   },
@@ -297,10 +294,7 @@ export const legal: Record<string, LegalDoc> = {
       <h2>1. New Verizon orders</h2>
       <p>Call <strong>{{phone}}</strong>. {{hours}}. Trained sales agents on the order line will confirm availability for your exact address and place the order with Verizon.</p>
 
-      <h2>2. Already a Verizon customer?</h2>
-      <p>For billing questions, outages, plan changes, or anything on an existing account, <strong>contact Verizon customer support directly</strong>. Our line is exclusively for new orders and cannot access your Verizon account.</p>
-
-      <h2>3. Email</h2>
+      <h2>2. Email</h2>
       <ul>
         <li>General enquiries — <a href="mailto:{{email}}">{{email}}</a></li>
         <li>Privacy and data rights — <a href="mailto:{{privacyEmail}}">{{privacyEmail}}</a></li>
@@ -308,11 +302,11 @@ export const legal: Record<string, LegalDoc> = {
         <li>Legal and trademark — <a href="mailto:{{legalEmail}}">{{legalEmail}}</a></li>
       </ul>
 
-      <h2>4. Registered business address</h2>
+      <h2>3. Registered business address</h2>
       <p>{{entity}}<br />{{address}}</p>
       <p>This is our registered business address for correspondence. It is not a retail store, and service is not sold or installed at this location.</p>
 
-      <h2>5. Accessibility</h2>
+      <h2>4. Accessibility</h2>
       <p>To report an accessibility barrier on this site, see our <a href="/legal/accessibility">Accessibility</a> statement.</p>
     `,
   },

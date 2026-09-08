@@ -54,9 +54,6 @@ export default function Faq() {
               </p>
               <CallLink placement="faq-aside" className="mt-5 w-full" />
               <p className="mt-3 text-[0.78rem] font-semibold text-verizon-slate">{PHONE.hours}</p>
-              <p className="mt-2 text-[0.75rem] leading-5 text-verizon-slate">
-                New orders only — for customer billing or outage support, contact Verizon directly.
-              </p>
             </aside>
           </Reveal>
         </div>

@@ -76,9 +76,6 @@ export default function Hero() {
                 single action. Every other call CTA on the page remains. */}
             <div className="mt-7">
               <p className="hero-ink text-[0.8125rem] font-semibold text-white">{HERO.microcopy.hours}</p>
-              <p className="hero-ink mt-1 max-w-md text-[0.78rem] font-medium leading-5 text-white">
-                {HERO.microcopy.newOrders}
-              </p>
             </div>
 
             <ul className="mt-7 flex flex-wrap gap-2" aria-label="Plan highlights">

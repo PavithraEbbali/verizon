@@ -17,7 +17,6 @@ export default function SiteFooter() {
             <div className="mt-6">
               <CallLink placement="footer" />
               <p className="mt-2 text-[0.75rem] text-verizon-slate">{PHONE.hours}</p>
-              <p className="mt-1 text-[0.75rem] text-verizon-slate">{DISCLOSURE.newOrdersOnly}</p>
             </div>
           </div>
 

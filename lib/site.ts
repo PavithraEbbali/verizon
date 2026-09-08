@@ -96,8 +96,6 @@ export const CALL_CTA_ATTR = { "data-call-cta": "" } as const;
 export const DISCLOSURE = {
   short: "Independent Authorized Retailer of Verizon® services.",
   bar: "Independent Authorized Retailer of Verizon® — Not Verizon.",
-  newOrdersOnly:
-    "New orders only — for customer billing or outage support, contact Verizon directly.",
   trademark:
     "Verizon, Fios, 5G Ultra Wideband, and related marks are trademarks of Verizon Trademark Services LLC.",
   reseller: `${OPERATOR.legalName} is an independent authorized retailer of Verizon® services. We are not Verizon Communications Inc. and are not affiliated with, endorsed by, or acting as an agent of Verizon beyond our retailer authorization. Pricing, availability, promotional terms, and service commitments are set by Verizon and confirmed at the time of order.`,
