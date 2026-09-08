@@ -31,3 +31,6 @@ Thumbs.db
 
 # vercel
 .vercel
+
+# local editor / preview tooling
+/.claude/
